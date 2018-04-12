@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0px;
+	padding: 0;
+	overflow-y:scroll;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+			/* Navigation bar */
+#nav{
+	background-color:#222;
+}
+#nav_wrapper{
+	width:100%;
+	margin:0 auto;
+	text-align: left;
+}
+#nav ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:relative;
+}
+#nav ul li {
+	display:inline-block;
+}
+#nav ul li:hover {
+	background-color: #333;
+}
+#nav ul li a,visited {
+	color: #ccc;
+	display:block;
+	padding: 15px;
+	text-decoration:none;
+	
+}
+#nav ul li a:hover {
+	color:#ccc;
+	text-decoration:none;
+}
+#nav ul li:hover ul {
+	display: block;
+}
+#nav ul ul {			/* DropDown Menu section */
+	display:none;
+	position:absolute;
+	background-color: #333;
+	border: 5px solid #222;
+	border-top:0;
+	margin-left:-5px;
+	min-width:150px;
+}
+#nav ul ul li {
+	display:block;
+}
+#nav ul ul li a,visited {
+	color:#ccc;
+}
+#nav ul ul li a:hover{
+	color:#099;
+}
+	
+	
+
+
+/*
+div#menubar1 {
+	padding:24px;
+	border:#999 1px dashed ;
+}
+div#menubar1 a {
+	font-family: Arial, sans-serif, Gotham, "Helvetica Neue", Helvetica;
+	font-size:17px;
+	background:#333;
+	padding: 12px 24px;
+	color:#999;
+	margin-right: 10px;
+	text-decoration:none;
+	border-radius: 3px;
+	-webkit-transition:background 0.3s linear 0s, color 0.3s linear 0s;
+	-moz-transition:background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition:background 0.3s linear 0s, color 0.3s linear 0s;
+	-o-transition:background 0.3s linear 0s, color 0.3s linear 0s;
+	transition:background 0.3s linear 0s, color 0.3s linear 0s;
+}
+div#menubar1 a:hover {
+	background:#6f8a00;
+	color:#fff;
+}
+*/
